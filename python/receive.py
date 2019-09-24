@@ -9,9 +9,10 @@ channel = connection.channel()
 
 channel.queue_declare(queue='hello')
 
-
+## Write your code in callback function##
 def callback(ch, method, properties, body):
     print(" [x] Received %r" % body)
+    print(body)
 
 
 channel.basic_consume(

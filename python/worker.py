@@ -2,8 +2,10 @@
 import pika
 import time
 
+credentials = pika.PlainCredentials('thinhle', 'meomeo')
+
 connection = pika.BlockingConnection(
-    pika.ConnectionParameters(host='localhost'))
+    pika.ConnectionParameters(host='171.244.51.228', port=5672, virtual_host='/', credentials=credentials))
 channel = connection.channel()
 
 channel.queue_declare(queue='task_queue', durable=True)
