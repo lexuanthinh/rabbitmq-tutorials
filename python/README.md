@@ -15,11 +15,14 @@ You may first need to run
 
     easy_install pip
 
+## Data
+
+    nguoiduatin_phapluat.json
 
 ## Code
 
 [Demo one: Send and receive JSON data for VNAS2]
-
+    
     python3 demo_vnas_producer.py
     python3 demo_vnas_producer.py
 <!-- 
