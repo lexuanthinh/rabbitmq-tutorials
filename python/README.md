@@ -18,11 +18,11 @@ You may first need to run
 
 ## Code
 
-[Tutorial one: "Hello World!"](https://www.rabbitmq.com/tutorial-one-python.html):
+[Demo one: Send and receive JSON data for VNAS2]
 
-    python send.py
-    python receive.py
-
+    python3 demo_vnas_producer.py
+    python3 demo_vnas_producer.py
+<!-- 
 
 [Tutorial two: Work Queues](https://www.rabbitmq.com/tutorial-two-python.html):
 
@@ -51,4 +51,4 @@ You may first need to run
 [Tutorial six: RPC](https://www.rabbitmq.com/tutorial-six-python.html):
 
     python rpc_server.py
-    python rpc_client.py
+    python rpc_client.py -->
